@@ -1,0 +1,28 @@
+#lightbox {
+	margin-top: 45px;
+	background-color: #eee;
+	padding: 10px;
+	border-bottom: 1px solid #666;
+	border-right: 1px solid #666;
+}
+#lightboxCaption {
+	color: #333;
+	background-color: #eee;
+	font-size: 90%;
+	text-align: center;
+	border-bottom: 1px solid #666;
+	border-right: 1px solid #666;
+}
+#lightboxIndicator {
+	border: 1px solid white;
+}
+#lightboxOverallView,
+#overlay {
+	background-image: url("../images/wedding/resource/fon_slider_wedding.jpg");
+	opacity: 0.5;
+}
+* html #lightboxOverallView,
+* html #overlay {
+	background-color: #000;
+	filter: Alpha(opacity=0.9);
+}

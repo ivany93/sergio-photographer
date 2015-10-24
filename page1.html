@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<META name="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+    <title>Serg</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+      <link href="css/my-style.css" rel="stylesheet" media="screen">
+	
+<div class="navbar navbar-inverse navbar-static-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button"  class="navbar-toggle" data-toggle="collapse" data-target="#nav_menu">
+                <span class="sr-only"> открыть меню </span>
+                         <span class="icon-bar">
+
+                          </span>
+                          <span class="icon-bar">
+
+                          </span>
+                          <span class="icon-bar">
+
+                          </span>
+            </button>
+            <a class="navbar-brand" href="#">logo</a>
+        </div>
+        <div class="collapse navbar-collapse" id="nav_menu">
+            <ul class="nav navbar-nav">
+                <li><a href="copy.html">punkt 1</a></li>
+                <li class="dropdown">
+                    <a href="#"class="dropdown-toggle" data-toggle="dropdown">
+                        punkt 2 <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">punkt 1</a></li>
+                        <li><a href="#">punkt 2</a></li>
+                        <li><a href="#">punkt 3</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">punkt 4</a></li>
+                        <li><a href="#">punkt 5</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">punkt 3</a></li>
+                <li><a href="#">punkt 4</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+  </head>
+
+  <body background="img/fon_12.jpg">
+    <p ><font color="red"> SERGIO !</font></p>
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--<!--  робота слайдера-->-->
+    <div id="carousel_id" class="carousel slide" align="center">
+        <!--  индикатор слайдов-->
+        <ol class="carousel-indicators">
+            <li class="active" data-target="#carousel_id" data-slide-to="0"></li>
+            <li data-target="#carousel_id" data-slide-to="1"></li>
+
+        </ol>
+        <!--  слайды-->
+
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="img/1.jpg">
+                    <div class="carousel-caption">
+                        <h2>
+                            заголовок первого слайда
+                        </h2>
+                        <p> описание первого слайда</p>
+                    </div>
+                </div>
+
+                <div class="item ">
+                    <img src="img/2.jpg">
+                    <div class="carousel-caption">
+                        <h2>
+                            заголовок второго слайда
+                        </h2>
+                        <p> описание второго слайда</p>
+                    </div>
+                </div>
+            </div>
+
+
+        <!--  стрелки влево и в право-->
+        <a href="#carousel_id" class="left carousel-control" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a href="#carousel_id" class="right carousel-control" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+    <!--  закінчення роботи слайдера-->
+
+
+    <div style="margin-top: 50px;  width: 100%; margin: 0 auto;">
+        <div class="mynav">Левая колонка</div>
+        <div class="aside" >
+            <!---->
+            <div style="margin-top: 50px">
+            <img src="img/1.jpg"width="150px" height="150px">
+            <a class="btn btn-primary" href="#spoiler1" data-toggle="collapse">заказать</a>
+            <div class="collapse" id="spoiler1">
+                <div class="well">
+                    <input type="text" value=" форма обратной связи">
+                </div>
+            </div>
+            </div>
+            <!---->
+            <div style="margin-top: 50px">
+            <img src="img/1.jpg"width="150px" height="150px">
+            <a class="btn btn-primary" href="#spoiler2" data-toggle="collapse">заказать</a>
+            <div class="collapse" id="spoiler2">
+                <div class="well">
+                    <input type="text" value=" форма обратной связи">
+                </div>
+            </div>
+           </div>
+        </div>
+        <div class="mycontainer">Центральная колонка</div>
+    </div>
+
+  </body>
+</html>
